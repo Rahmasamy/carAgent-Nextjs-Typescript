@@ -44,7 +44,11 @@ export default async function Home({ searchParams }: HomeProps) {
             <ShowMore
               pageNumber={(searchParams.limit || 10) / 10}
               isNext={(searchParams.limit || 10) > allCars.length}
-            />
+            /> 
+            <h1>
+              {searchParams.limit}
+             
+            </h1>
           </section>
         ) : (
           <div className='home__error-container'>

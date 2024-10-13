@@ -10,9 +10,9 @@ import { updateSearchParams } from "@utils";
 
 export default function CustomFilter({ title, options }: CustomFilterProps) {
   const router = useRouter();
-  const [selected, setSelected] = useState(options[0]); // State for storing the selected option
+  const [selected, setSelected] = useState(options[0]); 
 
-  // update the URL search parameters and navigate to the new URL
+  
   const handleUpdateParams = (e: { title: string; value: string }) => {
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
 
@@ -24,8 +24,8 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
       <Listbox
         value={selected}
         onChange={(e) => {
-          setSelected(e); // Update the selected option in state
-          handleUpdateParams(e); // Update the URL search parameters and navigate to the new URL
+          setSelected(e); 
+          handleUpdateParams(e); 
         }}
       >
         <div className='relative w-fit z-10'>
@@ -36,7 +36,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
           </Listbox.Button>
           {/* Transition for displaying the options */}
           <Transition
-            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+            as={Fragment} 
             leave='transition ease-in duration-100'
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
