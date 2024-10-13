@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/pUNSHPyVryU?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_next13_car_showcase/assets/151519281/2453c186-0ae9-448f-b3c4-077bf910680e" alt="Project Banner">
+      <img src="https://s1.cdn.autoevolution.com/images/gallery/TOYOTACorollaWagon-3599_1.jpg" alt="Project Banner">
     </a>
   <br />
 
