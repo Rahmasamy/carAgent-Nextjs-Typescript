@@ -81,7 +81,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/project_next13_car_showcase.git
+git clone (https://github.com/Rahmasamy/carAgent-Nextjs-Typescript/blob/carAgent)
 cd project_next13_car_showcase
 ```
 
